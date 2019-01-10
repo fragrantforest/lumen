@@ -14,3 +14,11 @@
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
+
+$router->get('/ff', function () use ($router) {
+    return 'ff';
+});
+
+$router->get('/lpf', function () use ($router) {
+    return 'lpf';
+});
