@@ -22,3 +22,8 @@ $router->get('/ff', function () use ($router) {
 $router->get('/lpf', function () use ($router) {
     return 'lpf';
 });
+
+
+$router->get('/test', function () use ($router) {
+    return 'test';
+});
